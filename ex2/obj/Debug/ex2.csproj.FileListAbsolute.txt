@@ -1,0 +1,7 @@
+C:\code\tdd-exercises-csharp\ex2\bin\Debug\ex2.dll
+C:\code\tdd-exercises-csharp\ex2\bin\Debug\ex2.pdb
+C:\code\tdd-exercises-csharp\ex2\bin\Debug\nunit.framework.dll
+C:\code\tdd-exercises-csharp\ex2\bin\Debug\nunit.framework.xml
+C:\code\tdd-exercises-csharp\ex2\obj\Debug\ex2.csprojResolveAssemblyReference.cache
+C:\code\tdd-exercises-csharp\ex2\obj\Debug\ex2.dll
+C:\code\tdd-exercises-csharp\ex2\obj\Debug\ex2.pdb

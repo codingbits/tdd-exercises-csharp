@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -12,6 +12,11 @@
     <AssemblyName>ex3</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,8 +36,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Gallio, Version=3.1.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL" />
-    <Reference Include="MbUnit, Version=3.1.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL" />
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -56,18 +60,13 @@
   <Target Name="AfterBuild">
   </Target>
   -->
- <UsingTask AssemblyFile="C:\Program Files\Gallio\bin\Gallio.MSBuildTasks.dll" TaskName="Gallio" />
- <Target Name="RunTests" DependsOnTargets="Build">
-        <RemoveDir Directories="Bin\TestOutput" Condition="Exists('Bin\TestOutput')"/>
-        <MakeDir Directories="Bin\TestOutput"/>
-        <Message Importance="high" Text="Tests are in '$(TargetPath)'" />
-        <Gallio IgnoreFailures="false"
-                Files="$(TargetPath)"
-                ReportDirectory="Bin\TestOutput"
-                ReportTypes="html;xml"
-                >
-            <Output TaskParameter="ExitCode" PropertyName="ExitCode"/>
-        </Gallio>
-    </Target>
-
+  <UsingTask AssemblyFile="C:\Program Files\Gallio\bin\Gallio.MSBuildTasks.dll" TaskName="Gallio" />
+  <Target Name="RunTests" DependsOnTargets="Build">
+    <RemoveDir Directories="Bin\TestOutput" Condition="Exists('Bin\TestOutput')" />
+    <MakeDir Directories="Bin\TestOutput" />
+    <Message Importance="high" Text="Tests are in '$(TargetPath)'" />
+    <Gallio IgnoreFailures="false" Files="$(TargetPath)" ReportDirectory="Bin\TestOutput" ReportTypes="html;xml">
+      <Output TaskParameter="ExitCode" PropertyName="ExitCode" />
+    </Gallio>
+  </Target>
 </Project>
