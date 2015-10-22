@@ -1,0 +1,6 @@
+C:\code\tdd-exercises-csharp\ex4\bin\Debug\ex4.dll
+C:\code\tdd-exercises-csharp\ex4\bin\Debug\ex4.pdb
+C:\code\tdd-exercises-csharp\ex4\bin\Debug\nunit.framework.dll
+C:\code\tdd-exercises-csharp\ex4\bin\Debug\nunit.framework.xml
+C:\code\tdd-exercises-csharp\ex4\obj\Debug\ex4.dll
+C:\code\tdd-exercises-csharp\ex4\obj\Debug\ex4.pdb

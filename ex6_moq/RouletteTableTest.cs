@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Moq;
-using MbUnit.Framework;
+using NUnit.Framework;
 namespace roulette
 {
     [TestFixture]
@@ -148,7 +148,7 @@ namespace roulette
             //assert
             IList<Bet> winningBets = new List<Bet>();
             winningBets.Add(new Bet(p2, 2));
-            Assert.AreElementsEqual(winningBets, rt.WinningBets);
+            Assert.AreEqual(winningBets, rt.WinningBets);
         }
         [Test]
         public void players_can_place_bets_when_the_ball_starts_rolling_up_to_10_seconds()

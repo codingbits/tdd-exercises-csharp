@@ -1,0 +1,10 @@
+C:\code\tdd-exercises-csharp\ex5_moq\obj\Debug\ex5_moq.csprojResolveAssemblyReference.cache
+C:\code\tdd-exercises-csharp\ex5_moq\bin\Debug\ex5_moq.dll
+C:\code\tdd-exercises-csharp\ex5_moq\bin\Debug\ex5_moq.pdb
+C:\code\tdd-exercises-csharp\ex5_moq\bin\Debug\Moq.dll
+C:\code\tdd-exercises-csharp\ex5_moq\bin\Debug\nunit.framework.dll
+C:\code\tdd-exercises-csharp\ex5_moq\bin\Debug\Moq.pdb
+C:\code\tdd-exercises-csharp\ex5_moq\bin\Debug\Moq.xml
+C:\code\tdd-exercises-csharp\ex5_moq\bin\Debug\nunit.framework.xml
+C:\code\tdd-exercises-csharp\ex5_moq\obj\Debug\ex5_moq.dll
+C:\code\tdd-exercises-csharp\ex5_moq\obj\Debug\ex5_moq.pdb

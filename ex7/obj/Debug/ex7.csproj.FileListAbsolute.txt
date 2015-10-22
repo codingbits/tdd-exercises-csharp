@@ -1,0 +1,10 @@
+C:\code\tdd-exercises-csharp\ex7\obj\Debug\ex7.csprojResolveAssemblyReference.cache
+C:\code\tdd-exercises-csharp\ex7\bin\Debug\ex7.dll
+C:\code\tdd-exercises-csharp\ex7\bin\Debug\ex7.pdb
+C:\code\tdd-exercises-csharp\ex7\bin\Debug\Moq.dll
+C:\code\tdd-exercises-csharp\ex7\bin\Debug\nunit.framework.dll
+C:\code\tdd-exercises-csharp\ex7\bin\Debug\Moq.pdb
+C:\code\tdd-exercises-csharp\ex7\bin\Debug\Moq.xml
+C:\code\tdd-exercises-csharp\ex7\bin\Debug\nunit.framework.xml
+C:\code\tdd-exercises-csharp\ex7\obj\Debug\ex7.dll
+C:\code\tdd-exercises-csharp\ex7\obj\Debug\ex7.pdb

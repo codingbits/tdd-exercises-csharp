@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MbUnit.Framework;
 using Moq;
+using NUnit.Framework;
+
 namespace roulette
 {
     [TestFixture]
